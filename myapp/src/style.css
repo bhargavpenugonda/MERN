@@ -1,0 +1,38 @@
+.header {
+    display: flex; /* added */
+    justify-content: space-between; /* added */
+    align-items: center;
+    background-color: #55a4d1;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .header h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .header ul li {
+    margin-right: 10px;
+  }
+  
+  .header ul li a {
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .header ul li a:hover {
+    background-color: #312d73;
+  }
+  
